@@ -1,1 +1,134 @@
-<mxfile host="app.diagrams.net" modified="2020-08-23T09:24:12.952Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="13.6.4" etag="pLe9qyIwI228gxz6tD5h" type="github"><diagram id="TFjfr74mP6xV0qtJg5ZK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-08-23T13:48:48.222Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="dkRVKAYi54GDLJQmpht6" version="13.6.4" type="github" pages="3">
+  <diagram id="TFjfr74mP6xV0qtJg5ZK" name="Page-1">
+    <mxGraphModel dx="1422" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_ueHOvqwrCw8agN-HZJX-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="190" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="_ueHOvqwrCw8agN-HZJX-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="220" width="180" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="_ueHOvqwrCw8agN-HZJX-3" value="缓冲池" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_ueHOvqwrCw8agN-HZJX-5" value="磁盘" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_ueHOvqwrCw8agN-HZJX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ueHOvqwrCw8agN-HZJX-6" target="_ueHOvqwrCw8agN-HZJX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ueHOvqwrCw8agN-HZJX-11" value="合适的时机写入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_ueHOvqwrCw8agN-HZJX-10">
+          <mxGeometry x="-0.23" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ueHOvqwrCw8agN-HZJX-6" value="插入缓冲" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_ueHOvqwrCw8agN-HZJX-7" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="_ueHOvqwrCw8agN-HZJX-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="365" as="sourcePoint" />
+            <mxPoint x="70" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ueHOvqwrCw8agN-HZJX-9" value="非唯一辅助索引" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_ueHOvqwrCw8agN-HZJX-7">
+          <mxGeometry x="-0.2273" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ueHOvqwrCw8agN-HZJX-8" value="非唯一辅助索引" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="817" y="370" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UVJDObmmqbAtKVJbLIQn" name="Page-2">
+    <mxGraphModel dx="1422" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="wWTOrOooU2CcT6WSWzD_-0" />
+        <mxCell id="wWTOrOooU2CcT6WSWzD_-1" parent="wWTOrOooU2CcT6WSWzD_-0" />
+        <mxCell id="6Zv1UuHdB-IEc2XNM77Y-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wWTOrOooU2CcT6WSWzD_-1">
+          <mxGeometry x="140" y="230" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="dCsaPT-DLYXmKlG-MM0C-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wWTOrOooU2CcT6WSWzD_-1">
+          <mxGeometry x="200" y="210" width="190" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="dCsaPT-DLYXmKlG-MM0C-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wWTOrOooU2CcT6WSWzD_-1">
+          <mxGeometry x="560" y="220" width="180" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="dCsaPT-DLYXmKlG-MM0C-2" value="缓冲池" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wWTOrOooU2CcT6WSWzD_-1">
+          <mxGeometry x="260" y="250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dCsaPT-DLYXmKlG-MM0C-3" value="磁盘" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wWTOrOooU2CcT6WSWzD_-1">
+          <mxGeometry x="630" y="250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dCsaPT-DLYXmKlG-MM0C-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wWTOrOooU2CcT6WSWzD_-1" source="dCsaPT-DLYXmKlG-MM0C-6" target="dCsaPT-DLYXmKlG-MM0C-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dCsaPT-DLYXmKlG-MM0C-5" value="合适的时机写入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dCsaPT-DLYXmKlG-MM0C-4">
+          <mxGeometry x="-0.23" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dCsaPT-DLYXmKlG-MM0C-6" value="插入缓冲" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wWTOrOooU2CcT6WSWzD_-1">
+          <mxGeometry x="240" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dCsaPT-DLYXmKlG-MM0C-7" value="非唯一辅助索引" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wWTOrOooU2CcT6WSWzD_-1">
+          <mxGeometry x="105" y="362" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="M9pZuJ2Ui5ZKzUH9Ml_t" name="Page-3">
+    <mxGraphModel dx="1422" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="4gWj9EcW9IcV_IvJnRQh-0" />
+        <mxCell id="4gWj9EcW9IcV_IvJnRQh-1" parent="4gWj9EcW9IcV_IvJnRQh-0" />
+        <mxCell id="4gWj9EcW9IcV_IvJnRQh-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4gWj9EcW9IcV_IvJnRQh-1">
+          <mxGeometry x="200" y="210" width="190" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="4gWj9EcW9IcV_IvJnRQh-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4gWj9EcW9IcV_IvJnRQh-1">
+          <mxGeometry x="560" y="440" width="180" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4gWj9EcW9IcV_IvJnRQh-4" value="缓冲池" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4gWj9EcW9IcV_IvJnRQh-1">
+          <mxGeometry x="260" y="250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4gWj9EcW9IcV_IvJnRQh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4gWj9EcW9IcV_IvJnRQh-1" source="4gWj9EcW9IcV_IvJnRQh-8" target="4gWj9EcW9IcV_IvJnRQh-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gWj9EcW9IcV_IvJnRQh-13" value="1. page1 part 1写入&lt;br&gt;2. page 1 part 2 写入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4gWj9EcW9IcV_IvJnRQh-12">
+          <mxGeometry x="-0.1053" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gWj9EcW9IcV_IvJnRQh-8" value="double wirte buffer(2M)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4gWj9EcW9IcV_IvJnRQh-1">
+          <mxGeometry x="240" y="335" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="4gWj9EcW9IcV_IvJnRQh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.344;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="4gWj9EcW9IcV_IvJnRQh-1" source="4gWj9EcW9IcV_IvJnRQh-11" target="4gWj9EcW9IcV_IvJnRQh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4gWj9EcW9IcV_IvJnRQh-11" value="共享表空间double write data (2M)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4gWj9EcW9IcV_IvJnRQh-1">
+          <mxGeometry x="570" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4gWj9EcW9IcV_IvJnRQh-14" value="" style="endArrow=classic;html=1;entryX=-0.028;entryY=0.317;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="4gWj9EcW9IcV_IvJnRQh-1" target="4gWj9EcW9IcV_IvJnRQh-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="400" as="sourcePoint" />
+            <mxPoint x="350" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gWj9EcW9IcV_IvJnRQh-15" value="写入磁盘" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4gWj9EcW9IcV_IvJnRQh-14">
+          <mxGeometry x="0.106" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gWj9EcW9IcV_IvJnRQh-17" value="当磁盘中的数据页,不完整时,先从共享表空间复制数据页, 然后应用redolog恢复数据&lt;br&gt;redolo可以恢复数据的前提是数据页完整,redolog记录得的是页偏移处对应的数据变更" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="4gWj9EcW9IcV_IvJnRQh-1">
+          <mxGeometry x="420" y="395" width="460" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
